@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Retro Style theme for Bitz</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -13,7 +15,7 @@
                 <img src="" alt="">
                 Retro
             </div>
-            <ul  class="nav-items">
+            <ul class="nav-items">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="movies.html">Movies</a></li>
                 <!-- <li><a href="#">Contact</a></li> -->
@@ -23,18 +25,52 @@
         </nav>
     </header>
 
-    <main>
-        <div>hello welcome</div>
+    <main style="display: flex;flex-direction: column;align-items: center;">
+        <!-- cover image div -->
+        <div
+            style="height:80vh;width: 100vw; background:url('https://wallpapers.com/images/hd/horror-movie-collage-7477-x-4300-v4a34khnzs7azmor.jpg');background-repeat: none;background-size: cover;">
+        </div>
+
+        <!-- slider div -->
+        <div style="display: flex;flex-direction: row;width: 80vw;height: 60vh;overflow: hidden;">
+            <div
+                style="width: 80vw;height: 60vh; background: url('assets/matrix.jpg');background-repeat: none;background-size: cover; position: relative; box-sizing: border-box;border-radius: 10px; margin: 20px;overflow: hidden;">
+                <div
+                    style="position: absolute; top: 0;left:0; background-image: linear-gradient(#ffffff00,#121212); width: 80vw;height: 60vh;opacity: 1;border-radius: 10px">
+                </div>
+                <div style="position: absolute;bottom: 20px;left:0;padding: 10px;">
+                    <h1 style="color: white;">The Matrix</h1>
+                    <p style="color: white;font-family: serif;">A dystopian future in which humanity is unknowingly
+                        trapped
+                        inside the Matrix,
+                        a simulated reality created by intelligent machines</p>
+                </div>
+            </div>
+            <div
+                style="width: 80vw;height: 60vh; background: url(assets/matrix.jpg);background-repeat: none;background-size: cover; position: relative; box-sizing: border-box;border-radius: 10px; margin: 20px;overflow: hidden;">
+                <div
+                    style="position: absolute; top: 0;left:0; background-image: linear-gradient(#ffffff00,#121212); width: 80vw;height: 60vh;opacity: 1;border-radius: 10px">
+                </div>
+                <div style="position: absolute;bottom: 20px;left:0;padding: 10px;">
+                    <h1 style="color: white;">The Matrix</h1>
+                    <p style="color: white;font-family: serif;">A dystopian future in which humanity is unknowingly
+                        trapped
+                        inside the Matrix,
+                        a simulated reality created by intelligent machines</p>
+                </div>
+            </div>
+        </div>
+
     </main>
-    
     <footer>
         <div class="foot-text">
-            <p>Thanks for visiting us . 
+            <p>Thanks for visiting us .
                 Copyright &copy; 2025
             </p>
             <p>Made with ❤️ by Solve-Ease</p>
         </div>
     </footer>
-    
+
 </body>
+
 </html>
