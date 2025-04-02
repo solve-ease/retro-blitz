@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;600&family=Ubuntu&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: rgb(205, 151, 43);
+    --secondary-color: rgba(21, 32, 48, 0.945);
+    --base-font: 16px;
+    --mera-red: #A02334;
+    --orange-light:#FFAD60;
+    --peach-light:#FFEEAD;
+
+    --font-winky: "Winky Sans";
+
+
+}
+
+
+body{
+    background-color: var(--peach-light);
+    /* height: 100vh; */
+    width: 100vw;
+}
+
+nav{
+    height: 4rem;
+    background-color:var(--secondary-color);
+}
+
+.nav-items{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* display: inline; */
+    
+}
+
+.nav-items li a{
+    color: var(--secondary-color) ;
+    font-size: var(--base-font);
+    text-decoration: none;
+    color: #ffff;
+    font-family: sans-serif, monospace;
+    padding: 0 1.2rem;
+
+}
+
+.logo{
+    display: inline;
+}
+
+/* footer */
+
+footer{
+    height: 6rem;
+    background-color: var(--secondary-color);
+    color : #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-text{
+    color: #fff;
+    font-family: var(--font-winky);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
